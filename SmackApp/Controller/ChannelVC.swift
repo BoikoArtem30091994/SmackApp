@@ -26,8 +26,15 @@ class ChannelVC: UIViewController {
 
     //Action
     @IBAction func loginBtnPressed(_ sender: Any) {
+        if AuthServices.instance.isLogged {
+            //Show profile view
+            let profile = ProfileVC()
+            profile.modalPresentationStyle = .custom
+            present(profile, animated: true , completion: nil)
+        } else {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
     }
+}
     
     @objc func userDataDidChange(_ notif: Notification) {
         if AuthServices.instance.isLogged {
@@ -41,6 +48,5 @@ class ChannelVC: UIViewController {
             print("Flag")
         }
     }
-    
-    
 }
+
