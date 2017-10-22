@@ -18,6 +18,8 @@
 		5C6F1CE11F9C9132007ABF6C /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1CE01F9C9132007ABF6C /* MessageService.swift */; };
 		5C6F1CE31F9C91CB007ABF6C /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1CE21F9C91CB007ABF6C /* Channel.swift */; };
 		5C6F1CE51F9CA679007ABF6C /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1CE41F9CA679007ABF6C /* ChannelCell.swift */; };
+		5C6F1CE91F9CBDA2007ABF6C /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1CE71F9CBDA2007ABF6C /* AddChannelVC.swift */; };
+		5C6F1CEA1F9CBDA2007ABF6C /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F1CE81F9CBDA2007ABF6C /* AddChannelVC.xib */; };
 		5C7A9E9B1F8FAB2A002B586F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7A9E9A1F8FAB2A002B586F /* UserDataService.swift */; };
 		5C7A9E9D1F900810002B586F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7A9E9C1F900810002B586F /* AvatarPickerVC.swift */; };
 		5C83A2FE1F8CDDFD009FCFC7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83A2FD1F8CDDFD009FCFC7 /* RoundedButton.swift */; };
@@ -45,6 +47,8 @@
 		5C6F1CE01F9C9132007ABF6C /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		5C6F1CE21F9C91CB007ABF6C /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		5C6F1CE41F9CA679007ABF6C /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		5C6F1CE71F9CBDA2007ABF6C /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		5C6F1CE81F9CBDA2007ABF6C /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		5C7A9E9A1F8FAB2A002B586F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		5C7A9E9C1F900810002B586F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		5C83A2FD1F8CDDFD009FCFC7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 		5C0A1CF61F98AFCF0066F612 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
+				5C6F1CE81F9CBDA2007ABF6C /* AddChannelVC.xib */,
 				5C0A1CF31F98AFAF0066F612 /* ProfileVC.xib */,
 			);
 			path = XIB;
@@ -162,6 +167,7 @@
 				5C5EBD821F8A4AAD00165C94 /* CreateAccountVC.swift */,
 				5C7A9E9C1F900810002B586F /* AvatarPickerVC.swift */,
 				5C0A1CF21F98AFAF0066F612 /* ProfileVC.swift */,
+				5C6F1CE71F9CBDA2007ABF6C /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6F1CEA1F9CBDA2007ABF6C /* AddChannelVC.xib in Resources */,
 				5C0A1CF51F98AFAF0066F612 /* ProfileVC.xib in Resources */,
 				5CC48FC31F8662DB0086D70E /* LaunchScreen.storyboard in Resources */,
 				5CC48FC01F8662DB0086D70E /* Assets.xcassets in Resources */,
@@ -343,6 +350,7 @@
 				5C5EBD831F8A4AAD00165C94 /* CreateAccountVC.swift in Sources */,
 				5CE9C9341F87E7BA005ACE1E /* Constants.swift in Sources */,
 				5CC48FBE1F8662DB0086D70E /* SmackApp.xcdatamodeld in Sources */,
+				5C6F1CE91F9CBDA2007ABF6C /* AddChannelVC.swift in Sources */,
 				5CC48FB61F8662DB0086D70E /* AppDelegate.swift in Sources */,
 				5C7A9E9D1F900810002B586F /* AvatarPickerVC.swift in Sources */,
 				5C098B821F90C4FF00D47C87 /* CircleImage.swift in Sources */,
