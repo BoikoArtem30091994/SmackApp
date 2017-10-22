@@ -51,7 +51,6 @@ class ChannelVC: UIViewController {
             loginBtn.setTitle("Login", for: .normal)
             userImg.image = UIImage(named: "menuProfileIcon")
             userImg.backgroundColor = UIColor.clear
-            print("Flag")
         }
     }
 }
