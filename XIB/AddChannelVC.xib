@@ -69,10 +69,10 @@
                             </connections>
                         </button>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="PcL-6X-usc">
-                            <rect key="frame" x="42" y="107.5" width="250" height="106"/>
+                            <rect key="frame" x="42" y="107.5" width="250" height="80"/>
                             <subviews>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yHK-8E-KCx">
-                                    <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yHK-8E-KCx">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="17"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="IYt-zk-32N"/>
                                     </constraints>
@@ -81,15 +81,15 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qG5-ik-3NB">
-                                    <rect key="frame" x="0.0" y="44" width="250" height="2"/>
+                                    <rect key="frame" x="0.0" y="31" width="250" height="2"/>
                                     <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="7Xq-v7-Gsx"/>
                                         <constraint firstAttribute="width" constant="250" id="E7w-TB-sdv"/>
                                     </constraints>
                                 </view>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JLq-JS-giN">
-                                    <rect key="frame" x="0.0" y="60" width="250" height="30"/>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JLq-JS-giN">
+                                    <rect key="frame" x="0.0" y="47" width="250" height="17"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="d5f-t0-Qan"/>
                                     </constraints>
@@ -98,7 +98,7 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uYb-Fz-1kc">
-                                    <rect key="frame" x="0.0" y="104" width="250" height="2"/>
+                                    <rect key="frame" x="0.0" y="78" width="250" height="2"/>
                                     <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="3Hn-LR-H0T"/>
